@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Captivate Interiors</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+
+    <!-- Google Fonts Roboto -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+
+    <!-- MDB -->
+
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- Custom styles -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+
+      h6 {
+        text-align:left;
+      }
+
+      
+
+      #Logo {
+        text-align: left;
+      }
+
+    </style>
+
+    
+
+  </head>
+  <body style="background-color: #ffffff">
+  <header>
+    <h1>
+      <img id="Logo" src="/Images/CI logo 3.png" alt="CI Logo" width="460" height="300" class="left">
+        <p class="text-center"><em>Captivate Interiors</em></p>
+    </h1>
+  </header>
+
+  <nav class="navbar navbar-expand-sm navbar navbar-light sticky-top" style="background-color: #dfddc1;">
+    <div class="container-fluid">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="/HTML/Home.html"><b>Home</b></a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="/HTML/shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/HTML/Contact_us.html">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/HTML/About_us.html">About us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+  
+  <section>
+
+    <h2><p class='text-center'>Meet the Team</p></h2>
+
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-5">
+          <img id="CEOimg" src="/Images/CEO.jpg" class="img-thumbnail rounded-circle" alt="ceo">
+        </div>
+
+        <div class="col-md-7">
+          <h3 id="CEO_HD" class="my-3">CEO</h3>
+          <p id="CEO_DES" class="font-weight-bold"><b>Michael has been in the Interior Design industry for over 20 years and loves everything about interiors, fabrics and furniture design. He loves working with clients with different tastes and seeing their own style come together.</b></p>
+          <br>
+          <br>
+          <button id="CEO_BTN" class="btn btn-dark" type="button" onclick="changeMD()">Change to MD</button>
+        </div>
+      </div>
+
+      <br>
+      <hr>
+
+      <div class="row" id = "staff1" onmouseover="showButton1()" onmouseout="hideButton1()">
+        
+        <div class="col-md-6">
+          <img src="/Images/Jim.png " class="img-thumbnail rounded-circle" width="240" height="250" al="jim">
+          <div><h6 class="">Jim Halpert</h6>
+            <button id="button1" class="btn btn-dark w-80" style="position: absolute; left: 7%;" type="button" onclick="hideStaff1()">Hide Staff</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p><b>Jim brings energy and enthusiasm to our store, he loves being part of the team and has a natural passion for people and interiors.</b></p>
+          
+        </div>
+      </div>
+
+      <br>
+      <hr>
+
+      <div class="row" id = "staff2" onmouseover="showButton2()" onmouseout="hideButton2()">
+        
+        <div class="col-md-6">
+          <img src="/Images/Dwight.png " class="img-thumbnail rounded-circle" width="240" height="250" al="jim">
+          <div><h6>Dwight Schrutte</h6>
+            <button id="button2" class="btn btn-dark w-80" style="position: absolute; left: 7%;" type="button" onclick="hideStaff2()">Hide Staff</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p><b>Dwight has a background in retail sales management spanning 15 years from jewellery, kitchen design and the beauty industry. He has a passion for connecting customers with products that match their desires and suit their lifestyle.</b></p>
+          
+        </div>
+      </div>
+
+      <br>
+      <hr>
+
+      <div class="row" id = "staff3" onmouseover="showButton3()" onmouseout="hideButton3()">
+        
+        <div class="col-md-6">
+          <img src="/Images/Pam.png" class="img-thumbnail rounded-circle" width="240" height="250" al="jim">
+          <div><h6>Pamela Beasley</h6>
+            <button id="button3" class="btn btn-dark w-80" style="position: absolute; left: 7%;" type="button" onclick="hideStaff3()">Hide Staff</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p><b>Pamela or Pam has recently completed her studies in Interior Design and has a great passion for homes and styling. Through her role, she is able to connect with people and help them to create spaces that they love.</b></p>
+          
+        </div>
+      </div>
+
+      <br>
+      <hr>
+
+      <div class="row" id = "staff4" onmouseover="showButton4()" onmouseout="hideButton4()">
+        
+        <div class="col-md-6">
+          <img src="/Images/Andy.png " class="img-thumbnail rounded-circle" width="240" height="250" al="jim">
+          <div><h6>Andrew Bernard</h6>
+            <button id="button4" class="btn btn-dark w-80" style="position: absolute; left: 7%;" type="button" onclick="hideStaff4()">Hide Staff</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p><b>Andy looks forward to helping you achieve interior spaces that are inviting and interesting; that reflect the way you live and use it, an extension of the occupants personalities and completely comforting and usable.</b></p>
+          
+        </div>
+      </div>
+
+      <br>
+      <hr>
+
+      <div class="row" id = "staff5" onmouseover="showButton5()" onmouseout="hideButton5()">
+        
+        <div class="col-md-6">
+          <img src="/Images/Kelly.png " class="img-thumbnail rounded-circle" width="240" height="250" al="jim">
+          <div><h6 class="">Kelly Kapoor</h6>
+            <button id="button5" class="btn btn-dark w-80" style="position: absolute; left: 7%;" type="button" onclick="hideStaff5()">Hide Staff</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p><b>Kelly is passionate about all things Marketing, Design and Photography, with a degree in Marketing and Digital Business. Through her role, she is able to express her creativity in creating engaging and aesthetic content, whilst delivering great customer service in both offline and online channels.</b></p>
+          
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+
+  <br>
+  <br>
+
+
+  <footer>
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <div class="container text-dark">
+              <h6><em>You can follow us on:</em></h6>
+            </div>
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://facebook.com/?lang=en" target="_blank"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #55acee;"
+              href="https://twitter.com/?lang=en" target="_blank"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #db5614;"
+              href="https://instagram.com/?lang=en" target="_blank"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn  btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="https://linkedin.com/?lang=en" target="_blank"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3 text-dark" style="background-color: #dfddc1;">
+          © 2022 Copyright:
+          <a class="text-dark">Captivate Interiors</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+  </footer>
+
+  <script>
+
+        var button1 = document.getElementById('button1');
+        button1.style.visibility = "hidden";
+
+        var button2 = document.getElementById('button2');
+        button2.style.visibility = "hidden";
+
+        var button3 = document.getElementById('button3');
+        button3.style.visibility = "hidden";
+
+        var button4 = document.getElementById('button4');
+        button4.style.visibility = "hidden";
+
+        var button5 = document.getElementById('button5');
+        button5.style.visibility = "hidden";
+
+function changeMD()
+    {
+       /* Find all the elements*/
+
+       var CEO_heading = document.getElementById('CEO_HD');
+       var CEO_des = document.getElementById('CEO_DES');
+       var CEO_img = document.getElementById('CEOimg');
+       var CEO_btn = document.getElementById('CEO_BTN');
+
+
+       if(CEO_heading.textContent == "CEO")
+       {
+            CEO_heading.innerHTML = "Managing Director";
+            CEO_heading.style.color = "black";
+            CEO_heading.style.fontSize = "30px";
+            CEO_heading.style.fontWeight= "bold" ;
+            CEO_des.innerHTML = "Most recently, Ricky was a Principal and Vice President of HOKs Auckland office. Prior to HOK, Ricky was a Principal and Interior Design Director at Perkins + Will for 12 years. His work has promoted thought leadership and has resulted in multiple design awards, publications and numerous long-term client accounts. He has recently been elected as the IIDA Global President for 2016-2017.";
+            CEO_img.src = "/Images/MD.png ";
+            CEO_btn.innerHTML = "Change to CEO";
+            CEO_DES.style.fontWeight="bold";
+       }
+       else
+       {
+            CEO_heading.innerHTML = "CEO";
+            CEO_heading.style.color = "black";
+            CEO_heading.style.fontSize = "30px";
+            CEO_heading.style.fontWeight = 'true' ;
+            CEO_des.innerHTML = "Michael has been in the Interior Design industry for over 20 years and loves everything about interiors, fabrics and furniture design. He loves working with clients with different tastes and seeing their own style come together.";
+            CEO_img.src = "/Images/CEO.jpg";
+            CEO_btn.innerHTML = "Change to MD"
+       }
+    }
+
+    function hideStaff1(){
+            var staff = document.getElementById('staff1');
+            staff.style.visibility = "hidden";
+        }
+
+        function showButton1(){
+            button1.style.visibility = "visible";
+        }
+
+        function hideButton1(){
+            button1.style.visibility = "hidden";
+        }
+
+    function hideStaff2(){
+            var staff = document.getElementById('staff2');
+            staff.style.visibility = "hidden";
+        }
+
+        function showButton2(){
+            button2.style.visibility = "visible";
+        }
+
+        function hideButton2(){
+            button2.style.visibility = "hidden";
+        }
+
+    function hideStaff3(){
+            var staff = document.getElementById('staff3');
+            staff.style.visibility = "hidden";
+        }
+
+        function showButton3(){
+            button3.style.visibility = "visible";
+        }
+
+        function hideButton3(){
+            button3.style.visibility = "hidden";
+        }
+
+    function hideStaff4(){
+            var staff = document.getElementById('staff4');
+            staff.style.visibility = "hidden";
+        }
+
+        function showButton4(){
+            button4.style.visibility = "visible";
+        }
+
+        function hideButton4(){
+            button4.style.visibility = "hidden";
+        }
+
+    function hideStaff5(){
+            var staff = document.getElementById('staff5');
+            staff.style.visibility = "hidden";
+        }
+
+        function showButton5(){
+            button5.style.visibility = "visible";
+        }
+
+        function hideButton5(){
+            button5.style.visibility = "hidden";
+        }
+
+  </script>
+
+  </body>
+</html>

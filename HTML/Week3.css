@@ -1,0 +1,19 @@
+img {
+    height: 100%;
+    width: auto;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+  }
+
+.header1 {
+    text-align: center;
+}
+
+.header1 img {
+    height: auto;
+    width: 20px;
+}
+
